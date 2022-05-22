@@ -17,4 +17,4 @@ Code is in the directory [CleanStore](CleanStore)
 Code is in the directory [NTierStore](NTierStore)
 ![Clean-Architecture Components](.docs/clean-architecture-components.png)
 
-Note: It is not necessary to use ItemModel and ShoppingCartModel, because the domain classes can be accessed directly. Here, the two adapter classes have been used explicitly so that the decoupling through the adapter layer is clarified.
+Note: It is not necessary to use [ItemModel.cs](CleanStore/Adapters/MappingClasses/ItemModel.cs) and [ShoppingCartModel.cs](CleanStore/Adapters/MappingClasses/ShoppingCartModel.cs), because the domain classes can be accessed directly. Here, the two adapter classes have been used explicitly so that the decoupling through the adapter layer is clarified.
