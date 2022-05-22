@@ -1,4 +1,4 @@
-# N-Tier architecture versus Clean-Architecture
+# N-Tier architecture versus Clean architecture
 This repo presents a comparison of the N-tier architecture with Robert C. Martin's clean architecture.
 
 There are two different projects for this comparison, which provide exactly the same functionality:
