@@ -9,12 +9,12 @@ There are two different projects for this comparison, which provide exactly the 
 Below are two diagrams (based on the UML standard for component diagrams) that visualize the architecture.
 
 ## N-Tier-Architecture (3-Tier)
-Code is in the directory [CleanStore](CleanStore)
+Code is in the directory [NTierStore](NTierStore)
 ![N-Tier-Architecture Components](.docs/n-tier-components.png)
 
 
 ## Clean Architecture
-Code is in the directory [NTierStore](NTierStore)
+Code is in the directory [CleanStore](CleanStore)
 ![Clean-Architecture Components](.docs/clean-architecture-components.png)
 
 Note: It is not necessary to use [ItemModel.cs](CleanStore/Adapters/MappingClasses/ItemModel.cs) and [ShoppingCartModel.cs](CleanStore/Adapters/MappingClasses/ShoppingCartModel.cs), because the domain classes can be accessed directly. Here, the two adapter classes have been used explicitly so that the decoupling through the adapter layer is clarified.
